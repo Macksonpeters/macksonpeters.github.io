@@ -14,7 +14,6 @@ body {
   display: grid;
   grid-template-rows: 500px 420px 500px 250px 500px 660px 520px;
   grid-template-columns: 100%;
-  border: 2px solid black;
   row-gap: 7px;
 }
 
