@@ -352,9 +352,3 @@ p {
     background-image: url(clonee.png);
   }
 }
-
-@media screen and (min-width: 4342px) {
-  body {
-    margin: 0;
-  }
-}
