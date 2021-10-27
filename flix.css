@@ -23,7 +23,7 @@ body {
 
 header {
   text-align: center;
-  background-image: url(/images/cloner.png);
+  background-image: url(cloner.png);
   background-repeat: no-repeat;
 }
 
@@ -278,7 +278,7 @@ p {
 
   header {
     text-align: center;
-    background-image: url(/images/clonee.png);
+    background-image: url(clonee.png);
     background-repeat: no-repeat;
   }
 }
