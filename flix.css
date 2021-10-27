@@ -7,9 +7,10 @@ body {
 }
 
 .container {
+  width: fit-content;
   margin: 0%;
   display: grid;
-  grid-template-rows: 500px 420px 500px 250px 500px 660px 520px;
+  grid-template-rows: 500px 420px 500px 250px 500px 660px 620px;
   grid-template-columns: 100%;
   row-gap: 7px;
 }
@@ -122,6 +123,8 @@ input {
 .watch {
   text-align: center;
   font-family: sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 video {
@@ -234,13 +237,13 @@ footer {
 .un {
   display: flex;
   flex-direction: column;
-  align-items: inherit;
+  align-items: left;
   height: 50vh;
   flex-wrap: wrap;
 }
 
 p {
-  padding-left: 4%;
+  padding-left: 0%;
   margin-bottom: 2%;
   font-family: serif;
   color: rgb(121, 118, 118);
@@ -330,5 +333,24 @@ p {
     margin-bottom: 1%;
     padding-left: 0.6%;
     padding-right: 0.6%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .container {
+    display: grid;
+    margin-right: -38rem;
+    grid-template-rows: 560px 470px 500px 250px 700px 900px 920px;
+  }
+
+  header {
+    text-align: center;
+    background-image: url(clonee.png);
+  }
+}
+
+@media screen and (min-width: 4342px) {
+  body {
+    margin: 0;
   }
 }
