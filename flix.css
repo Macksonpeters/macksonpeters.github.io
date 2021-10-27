@@ -220,7 +220,6 @@ footer {
   color: rgb(66, 63, 63);
   text-align: left;
 }
-
 .a {
   color: rgb(121, 118, 118);
   text-decoration-line: none;
@@ -242,7 +241,7 @@ footer {
 }
 
 p {
-  padding-left: 4%;
+  padding-left: 0%;
   margin-bottom: 2%;
   font-family: serif;
   color: rgb(121, 118, 118);
