@@ -12,6 +12,7 @@ body {
 
 .container {
   display: grid;
+  margin: 0;
   grid-template-rows: 500px 420px 500px 250px 500px 660px 520px;
   grid-template-columns: 100%;
   row-gap: 7px;
