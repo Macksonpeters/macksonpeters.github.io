@@ -228,6 +228,7 @@ footer {
   text-decoration-line: none;
   padding: 0;
   margin-bottom: -20;
+  font-size: 0.6em;
 }
 
 .a:hover {
@@ -280,6 +281,9 @@ p {
     grid-template-rows: 500px 420px 500px 250px 700px 900px 620px;
   }
 
+  .a {
+    font-size: 1em;
+  }
   header {
     text-align: center;
     background-image: url(clonee.png);
