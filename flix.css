@@ -235,7 +235,7 @@ footer {
 .un {
   display: flex;
   flex-direction: column;
-  align-items: inherit;
+  align-items: left;
   height: 50vh;
   flex-wrap: wrap;
 }
