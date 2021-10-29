@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+html {
+  font-size: 100%;
+}
+
 body {
   background: rgb(37, 36, 36);
   margin: 0;
+  font-size: 1rem;
+  line-height;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, a {
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -40,15 +52,13 @@ header {
 }
 
 h1 {
-  font-family: sans-serif;
   font-weight: bolder;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 h3 {
   text-align: center;
   color: white;
-  font-family: sans-serif;
   font-weight: 300;
   font-size: 1.15em;
 }
@@ -76,7 +86,6 @@ input {
 .get {
   color: white;
   text-decoration-line: none;
-  font-family: sans-serif;
 }
 
 .get:hover {
@@ -117,7 +126,6 @@ input {
 
 .enjoy {
   padding-top: 10%;
-  font-family: sans-serif;
 }
 
 .watch {
@@ -147,7 +155,6 @@ img {
   padding: 8%;
   padding-bottom: 0;
   font-size: 1.6em;
-  font-family: sans-serif;
 }
 
 .tip {
@@ -172,7 +179,6 @@ img {
   background: black;
   text-align: center;
   color: white;
-  font-family: sans-serif;
 }
 
 .create {
@@ -187,7 +193,6 @@ img {
 .mfive {
   color: white;
   background: black;
-  font-family: sans-serif;
   text-align: center;
   padding-top: 8%;
 }
@@ -219,7 +224,9 @@ footer {
   background: black;
   color: rgb(66, 63, 63);
   text-align: left;
+  padding-left: 1rem;
 }
+
 .a {
   color: rgb(121, 118, 118);
   text-decoration-line: none;
@@ -233,18 +240,16 @@ footer {
 }
 
 .un {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  height: 50vh;
-  flex-wrap: wrap;
+  column-count: 2;
 }
 
 p {
   padding-left: 0%;
   margin-bottom: 2%;
-  font-family: serif;
   color: rgb(121, 118, 118);
+}
+.p {
+  padding-top: 2rem;
 }
 
 .pp {
@@ -278,6 +283,10 @@ p {
     grid-template-rows: 500px 420px 500px 250px 700px 900px 620px;
   }
 
+  .enjoy {
+    padding-top: 2%;
+  }
+
   header {
     text-align: center;
     background-image: url(clonee.png);
@@ -288,22 +297,29 @@ p {
 @media screen and (min-width: 1080px) {
   .container {
     display: grid;
-    grid-template-rows: 560px 470px 500px 250px 700px 900px 620px;
+    grid-template-rows: 700px 520px 600px 300px 600px 1050px 620px;
   }
 
   h1 {
-    font-family: sans-serif;
     font-weight: bolder;
-    font-size: 2.7rem;
+    font-size: 3.052rem;
     margin-top: -2%;
   }
+
+  h2 {
+    font-size: 2.441rem;
+  }
+
+  .enjoy {
+    padding-top: 12%;
+  }
+
 
   h3 {
     text-align: center;
     color: white;
-    font-family: sans-serif;
     font-weight: 300;
-    font-size: 1.45em;
+    font-size: 1.953em;
   }
 
   article {
@@ -332,4 +348,38 @@ p {
     padding-left: 0.6%;
     padding-right: 0.6%;
   }
+
+  .un {
+    column-count: 3;
+  }
+
+  .ti {
+    padding-top: 3%;
+    font-size: 2.441rem;
+  }
+
+  .eve {
+    padding-top: 3%;
+  }
+
+  .create {
+    column-count: 2;
+  }
+
+  input {
+    width: 85%;
+    height: 10vh;
+  }
+
+  #two {
+    column-count: 2;
+  }
+
+  video {
+    width: 25rem;
+    height: 25rem;
+    margin-top: 0%;
+  }
+  
+  
 }
